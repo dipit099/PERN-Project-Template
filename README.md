@@ -15,8 +15,8 @@ npm start
 ```
 
 
-
-## Server
+## If You Want to manually Create then follow the below steps
+### Server
 Create a folder "server" and cd into it
 ```bash
 cd server
@@ -26,18 +26,14 @@ touch index.js
 npm i nodemon
 write given copy and paste my code of that file, with a PORT number.
 ```
-### Now paste this in terminal to run the server `nodemon index`
+Now paste this `nodemon index` in terminal to run the server 
 
 
-## Client
+### Client
 ```bash
 npx create-react-app client
 cd client
 npm start
 ```
-
-
-
-
 
 ###  To preview md Files by keyboard , press `"Ctrl + Shift + V"`
