@@ -1,15 +1,33 @@
 # PERN-Project-Template
 Template for PERN Project ( Postgres + Nodejs + Reactjs )
 
+## Download the Github Zip file and extract it in your project folder
+Now run this cmds to install all the dependencies.
+```bash
+cd server
+npm install
+nodemon index
+```
+```bash
+cd client
+npm install
+npm start
+```
+
+
 
 ## Server
 Create a folder "server" and cd into it
 ```bash
+cd server
 npm init
 npm i express pg cors
 touch index.js
-write given codes with a PORT number
+npm i nodemon
+write given copy and paste my code of that file, with a PORT number.
 ```
+### Now paste this in terminal to run the server `nodemon index`
+
 
 ## Client
 ```bash
@@ -19,4 +37,7 @@ npm start
 ```
 
 
-To preview md Files by keyboard , press `"Ctrl + Shift + V"`
+
+
+
+###  To preview md Files by keyboard , press `"Ctrl + Shift + V"`
