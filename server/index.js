@@ -7,7 +7,14 @@ app.use(express.json());
 
 const PORT = 5197;
 
+app.use('/hello', require('./routes/helloRoute'));
+
+
+
+
+
+
 
 app.listen(PORT, () => {
-    console.log("Server is running on port 5167");
+    console.log("Server is running on port", PORT);
 });
