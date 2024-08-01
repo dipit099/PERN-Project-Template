@@ -47,3 +47,11 @@ npm start
 ```
 
 ###  To preview md Files by keyboard , press `"Ctrl + Shift + V"`
+
+## Expose your Localhost to the network
+Copy and paste it in package.json file of client folder.
+```bash
+"start": "react-scripts start --host 0.0.0.0",
+```
+Then go to ur IP address and port number to access the app from any device in the same network.
+eg. http://192.168.1.ipnumber:3000/
