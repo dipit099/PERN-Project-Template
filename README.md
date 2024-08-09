@@ -55,3 +55,21 @@ Copy and paste it in package.json file of client folder.
 ```
 Then go to ur IP address and port number to access the app from any device in the same network.
 eg. http://192.168.1.ipnumber:3000/
+
+
+## Github Repo Collaboratoration:
+```bash
+git checkout -b branchname  #only do this once
+git add .
+git commit -m "message"
+git push origin branchname
+
+## To merge the branch with main branch:
+git checkout main
+git merge branchname
+git push origin main    
+
+git fetch origin main
+git pull origin main
+```
+To Open md files in vscode - `Ctrl + Shift + V`
