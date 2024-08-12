@@ -1,48 +1,13 @@
-@import './components/variables.css';
-
 body {
   margin: 0;
-  font-family: "Inter";
-  /*Roboto,Inter, Poppins*/
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-color);
-  color: var(--text-normal);
-  min-height: 100vh;
-  font-size: 20px;
 }
 
-.title-font,h1 {
-  font-size: 48px;  
-  font-weight: bold;    
-}
-
-.big-font,h3{
-    font-size: 32px;  
-}
-
-.medium-font{
-  font-size: 24px; 
-}
-
-.description,p{
-  font-size: 20px;
-  margin-top: 10px; 
-  font-family: "Roboto";
-  color: var(--text-low);
-}
-
-button{
-  font-size: 20px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  background-color: var(--accent-color01);
-  color: var(--text-same);
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-button:hover{
-  background-color: var(--secondary-color);
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
