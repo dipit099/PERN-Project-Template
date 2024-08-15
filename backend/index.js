@@ -5,14 +5,9 @@ const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 
-const PORT = 5197;
+const PORT = 8000;
 
 app.use('/hello', require('./routes/helloRoute'));
-
-
-
-
-
 
 
 app.listen(PORT, () => {
