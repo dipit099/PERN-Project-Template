@@ -18,9 +18,8 @@ npm start
 ```bash
 For Database, change the db.js file(in server folder) with your database Credentials.
  ```
-## Happy Coding !
-## Happy Coding !
-## Happy Coding !
+## Happy Coding !🚀
+
 
 ## Also If You Want to manually Create then follow the below steps [optional]
 ### Backend :
@@ -29,12 +28,12 @@ Create a folder "backend" ,then open your terminal , and follow the steps below 
 cd backend
 npm init
 ```
-And keep pressing 'enter' until it asks for 'yes' , then type 'yes' and press 'enter'.Now in the terminal,paste these one by one.
+And keep pressing 'enter' until it asks for 'yes' , then type 'yes' and press 'enter'.
+Now in the terminal,paste these one by one.
 ```bash
-npm i express pg cors
-npm i nodemon
+npm i express pg cors nodemon
 touch index.js
-write given copy and paste my code of that file, with a PORT number.
+#now  write given copy and paste my code of that file, with a PORT number.
 ```
 Now paste this `nodemon index` in terminal to start the server .
 
@@ -47,15 +46,6 @@ npm start
 ```
 Install nesesary packages for frontend.
 ###  To preview md Files by keyboard , press `"Ctrl + Shift + V"`
-
-## Expose your Localhost to the 
-
-Copy and paste it in package.json file of client folder.
-```bash
-"start": "react-scripts start --host 0.0.0.0",
-```
-Then go to ur IP address and port number to access the app from any device in the same network.
-eg. http://192.168.1.ipnumber:3000/
 
 
 ## Github Repo Collaboratoration:
@@ -72,3 +62,18 @@ git pull origin main
 ```
 To Open md files in vscode - `Ctrl + Shift + V`
 
+
+
+
+## Additional:
+
+### Setup Postgres in VSCode:
+Check here https://www.youtube.com/watch?v=cc-cSSsGqbA&t=627s
+
+### Expose your Localhost to the network
+Copy and paste it in package.json file of frontend folder.
+```bash
+"start": "react-scripts start --host 0.0.0.0",
+```
+Then go to ur IP address and port number to access the app from any device in the same network.
+eg. http://192.168.1.ipnumber:3000/

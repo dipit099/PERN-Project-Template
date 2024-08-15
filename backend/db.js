@@ -2,9 +2,21 @@ const Pool = require("pg").Pool;
 const pool = new Pool({
     host: "localhost",
     port: 5432,
-    user: "paste_your_username_here",
-    database: "paste_your_database_name_here",
-    password: "paste_your_password_here",
+    user: "postgres",
+    database: "postgres",
+    password: "alliswell",
 });
 
 module.exports = pool;
+
+// {
+//     "previewLimit": 50,
+//     "server": "localhost",
+//     "port": 5432,
+//     "driver": "PostgreSQL",
+//     "name": "My_connection",
+//     "database": "postgres",
+//     "username": "postgres",
+//     "password": "alliswell",
+//     "connectionTimeout": 30
+//   }
