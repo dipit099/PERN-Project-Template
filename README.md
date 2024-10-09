@@ -45,10 +45,12 @@ cd frontend
 npm start
 ```
 Install nesesary packages for frontend.
+
 ###  To preview md Files by keyboard , press `"Ctrl + Shift + V"`
 
 
 ## Github Repo Collaboratoration:
+
 
 ```bash
 git checkout -b branchname  #only do this once

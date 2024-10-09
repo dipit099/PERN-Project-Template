@@ -1,15 +1,22 @@
 import React from 'react';
 import './App.css';
-import {Route,Routes} from 'react-router-dom';
-import Home from './components/home/Home';
+import './fonts.css'; 
+import { Routes, Route } from 'react-router-dom'; // No need to import Navigate here
 
-function App() {
+import { AuthProvider } from './config/AuthContext'; 
+import ScrollToTop from './components/ScrollToTop';
+import Home from './pages/home/Home';
+
+function App() { 
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </div>
+    <AuthProvider> 
+      <ScrollToTop />
+      <div>
+        <Routes>             
+         <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </AuthProvider>
   );
 }
 

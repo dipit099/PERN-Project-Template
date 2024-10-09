@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Glacial';
+    src: url('./assets/fonts/GlacialIndifference-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Glacial';
+    src: url('./assets/fonts/GlacialIndifference-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Norwester';
+    src: url('./assets/fonts/norwester.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Horizon';
+    src: url('./assets/fonts/Horizon.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }

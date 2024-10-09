@@ -8,6 +8,8 @@ app.use(express.json());
 const PORT = 8000;
 
 app.use('/hello', require('./routes/helloRoute'));
+app.use('/login', require('./routes/login/LoginRouter'));
+app.use('/register', require('./routes/login/RegisterRouter'));
 
 
 app.listen(PORT, () => {

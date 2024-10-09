@@ -1,0 +1,129 @@
+/* Navbar.css */
+@import '../variables.css';
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: var(--background-color);
+    color: var(--text-normal);
+    max-height: 60px;
+    font-family: 'Glacial', cursive, Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom,#052355, #020e21);
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+/* Add animation for hover */
+.logo-icon {
+    width: 60px;  
+    height: auto;
+    color: var(--text-high);
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+.logo-icon:hover {
+    transform: rotate(360deg) scale(1.1);  
+    filter: drop-shadow(0 0 6px var(--accent-color01)); 
+    cursor: pointer;
+}
+
+.logo-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text-high);
+    font-family: 'Norwester', cursive, Arial, Helvetica, sans-serif;
+}
+
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-normal);
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    color: var(--accent-color01);
+}
+
+.nav-link:hover {
+    color: var(--accent-color01);
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Glacial';
+    font-weight: bold;
+}
+
+.login-button1 {
+    text-decoration: none;
+    color: var(--text-same);
+    background-color: var(--accent-color02);
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Glacial';
+}
+
+.login-button1:hover {
+    background-color: var(--accent-color01);
+    color: var(--text-same);
+    cursor: pointer;
+
+}
+
+.theme-toggle-button {
+    background: none;
+    color: var(--text-normal);
+    cursor: pointer;
+    font-size: 35px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+
+@keyframes jump {
+    0% {
+        transform: translateY(-5px);
+        /* Initial position */
+    }
+
+    50% {
+        transform: translateY(5px);
+        /* Moves the link upwards */
+    }
+
+    100% {
+        transform: translateY(-5px);
+        /* Moves the link downwards */
+    }
+}
+
+#jumping-link {
+    display: inline-block;
+    /* Needed to apply transform animations */
+    font-size: 20px;
+    /* Optional: Adjust text size */
+    text-decoration: none;
+    position: relative;
+    animation: jump 1s ease-in-out infinite;
+    /* 1s animation loop */
+}
